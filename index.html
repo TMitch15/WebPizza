@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Travis' Pizza</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <link REL="stylesheet" href="mystyle.css">
+    </head>
+    <body>
+        <h1>Travis' Pizza Web Order Form</h1>
+        <form name="pizzaform" method="get" action="order.jsp">
+            <p>Customer Email: <input type="text" name="email" size="40"
+                                      placeholder="enter email" required></p>
+            <input type="radio" name="size" value="large">Large
+            <input type="radio" name="size" value="medium">Medium
+            <input type="radio" name="size" value="small">Small
+            <br>
+            <input type ='checkbox' name ='crust' value ='pan'>Pan
+            <input type ='checkbox' name ='crust' value ='hand'>Hand-Tossed
+            <input type ='checkbox' name ='crust' value ='thin'>Thin
+            <br>
+            <input type="checkbox" name="toppings" value="pepperoni">pepperoni
+            <input type="checkbox" name="toppings" value="mushroom">mushroom
+            <input type="checkbox" name="toppings" value="pineapple">pineapple
+            <br>
+            <input type="submit" name="order" value="Place order">
+        </form>
+    </body>
+</html>

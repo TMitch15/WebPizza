@@ -1,0 +1,43 @@
+
+/* 
+    Created on : Feb 13, 2017, 10:34:50 PM
+    Author     : Travis
+*/
+
+body{font-family: Tahoma, Geneva, sans-serif;
+     padding: 10px;
+     margin: 10px;
+     background-color: whitesmoke;
+}
+h1{
+    font-family: arial, helvetica, sans-serif;
+    font-size: xx-large;
+    font-style: normal;
+    font-weight: bolder;
+    font-variant: small-caps;
+}
+p{
+    margin-left: 20px;
+}
+
+input{
+    margin : 20px 5px 0px 20px;
+}
+
+a:link {
+    color: #00f;
+    text-decoration: none;
+}
+a:visited {
+    color: #00f;
+    text-decoration: underline;
+}
+a:hover{
+    color: #fa1;
+    text-decoration: underline;
+
+}
+footer{
+    font-size: x-small;
+    margin-top: 8em;
+}
